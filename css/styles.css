@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+}
+
+.main_container {
+    height: 100vh;
+}
+
+.main_container_img {
+    padding-top: 40vh;
+}
+
+.main_container_boton {
+    padding-top: 40px;
+}
+
+.main_container_boton_text {
+    color: white;
+}
+
+@media screen and (min-width: 992px) {    
+    .main_container_img {
+        padding-top: 25vh;
+    }
+
+    .main_container_boton {
+        padding-top: 100px;
+    }
+}
